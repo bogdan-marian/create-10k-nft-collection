@@ -16,12 +16,16 @@ const layerConfigurations = [
     growEditionSizeTo: 100,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Flame" },
+      { name: "RingDown" },
+      { name: "Rocket" },
+      { name: "Porthole" },
+      { name: "ColoredGlass" },
+      { name: "TransparentGlass" },
+      { name: "Logo" },
+      { name: "RocketHead" },
+      { name: "TopRing" },
+      { name: "Wings" },
     ],
   },
 ];
@@ -31,8 +35,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 1024,
+  height: 1024,
   smoothing: false,
 };
 
